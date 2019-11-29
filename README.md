@@ -61,3 +61,5 @@ Although the two core requirements in the brief were satisfied, there were some 
 - I will also look into how fontawesome icons are brought into React Apps. Although I have used them before in more straigthfroward projects, utilising it with React seems slightly different. Again, time constraints inhibited me. At present placeholder images are used with the help of https://placeholder.com/.
 
 - I also would like to revisit how the data is fetched and implemented, perhaps using Redux Middleware instead or React Hooks.
+
+- And, finally, as my laptop is cose to 10 years old I don't have the ability to use git. In the future, permitting I make a decision and pick a laptop already, I will make sure to show my working/progress through frequent commits.
