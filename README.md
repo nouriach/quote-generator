@@ -58,4 +58,6 @@ Although the two core requirements in the brief were satisfied, there were some 
 
 - Get the Unsplash API to work to update the joke component images each time a new joke is requested.I started building the component <Image /> and got the api to work however, due to time constraints, wasn't able to properly integrate it.
 
+- I will also look into how fontawesome icons are brought into React Apps. Although I have used them before in more straigthfroward projects, utilising it with React seems slightly different. Again, time constraints inhibited me. At present placeholder images are used with the help of https://placeholder.com/.
+
 - I also would like to revisit how the data is fetched and implemented, perhaps using Redux Middleware instead or React Hooks.
