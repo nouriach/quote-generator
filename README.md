@@ -51,11 +51,10 @@ localhost:3000
 # Reflection
 Although the two core requirements in the brief were satisfied, there were some key things I will look to include in the project in the future:
 
-**1.** I will look to integrate Unit Testing into the code to help me create cleaner and more economical code. Potential route: Jest or, if I am feeling ambitious, Cypress.
-**2.** Attempt the bonus challenge of the never ending scroll. 
-        My early thoughts are that this will require limiting the api call and acknowledging where in the "screen" the user is at the time.
-        Once the user approaches a certain position on the screen a call will be made to fetch data from the api once more.
-        The state will need to have a value which tracks the user's position and updates accordingly.
-**3.** Get the Unsplash API to work to update the joke component images each time a new joke is requested. 
-        I started building the component <Image /> and got the api to work however, due to time constraints, wasn't able to properly integrate it.
-**4.** I also would like to revisit how the data is fetched and implemented, perhaps using Redux Middleware instead or React Hooks.
+- I will look to integrate Unit Testing into the code to help me create cleaner and more economical code. Potential route: Jest or, if I am feeling ambitious, Cypress.
+
+- Attempt the bonus challenge of the never ending scroll. My early thoughts are that this will require limiting the api call and acknowledging where in the "screen" the user is at the time.Once the user approaches a certain position on the screen a call will be made to fetch data from the api once more.The state will need to have a value which tracks the user's position and updates accordingly.
+
+- Get the Unsplash API to work to update the joke component images each time a new joke is requested.I started building the component <Image /> and got the api to work however, due to time constraints, wasn't able to properly integrate it.
+
+- I also would like to revisit how the data is fetched and implemented, perhaps using Redux Middleware instead or React Hooks.
