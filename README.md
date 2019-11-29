@@ -30,6 +30,7 @@ Since the jokes are random, it is fine in this simple task to have duplicate jok
 **status: ~~incomplete~~**
 
 # Project Screen Shots
+![image](https://user-images.githubusercontent.com/49981579/69883311-780cfe80-12cb-11ea-8086-1c92838b630a.png)
 
 # Instalation and Setup Instructions
 **Important**: This repo does not have either the node modules or the package.json files included.
