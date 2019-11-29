@@ -1,0 +1,464 @@
+/******
+
+Darkblue: #002663 
+light blue:#046AB8
+white:#FFFFFF
+pre-footer grey: #F5F5F5 (contact us info)
+border: #0494CD
+
+*****/
+
+.app-container {
+  margin: 5%;
+  background-color:#FFFFFF;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: row;
+  width: 95%;
+  border-bottom: 2px solid #0494CD;
+}
+
+.header-container p {
+  color: #046AB8;
+}
+
+.header-container div:nth-child(2){
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 100%;
+  padding-bottom: 3%;
+}
+
+.header-container div:nth-child(2) p{
+  margin-left: 5%;
+}
+
+h1, h2, h3 {
+	color: #002663;
+}
+
+.middle-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.bespokeJoke-container{
+	  border: solid 1px lightgrey;
+    height: fit-content;
+    width: 40em;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+  }
+
+.bespokeJoke-container:hover {
+	border: solid 3px #046AB8;
+  height: fit-content;
+
+      	/* filter: drop-shadow(0 0 30px #333); */
+}
+
+.bespokeJoke-container h4 {
+  color: red;
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+div > img {
+    width: 100%;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;}
+
+
+.joke-container {
+	  border: solid 1px lightgrey;
+    height: fit-content;
+    width: 40em;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;}
+
+.joke-container:hover {
+	  border: solid 3px #046AB8;
+    height: fit-content;
+ 	
+    /* filter: drop-shadow(0 0 30px #333); */
+}
+
+/**** text ******/
+
+.joke-container div:nth-child(2) {
+	padding: 0em 2em 1em 2em;
+}
+
+.bespokeJoke-container div:nth-child(2) {
+	padding: 0em 2em 1em 2em
+} 
+
+/**** button styling ****/
+
+/* add ease transition into the hover changes */
+
+.button-container {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 2em;
+}
+
+.button-container button {
+  width: 40%;
+}
+
+button {
+	display: flex;
+  justify-content: space-between;
+	border-radius: 10%/50%;
+  background-color: #FFFFFF;
+  border: 2px solid #046AB8;
+  width: 100%;
+  height: 5em;
+  margin: auto 0;
+  transition:  all 50ms linear;
+}
+
+button span {
+  margin: auto 0;
+  padding-left: 1em;
+  font-weight: bolder;
+  font-size: 18px;
+  color: #046AB8;
+}
+
+button:hover {
+  background-color: #046AB8;
+  color: white;
+  cursor: pointer;
+
+}
+
+button:active {
+  transform: translateY(3px);
+}
+
+
+button p {
+	font-family: sans-serif;
+  font-weight: bolder;
+  color: #046AB8;
+	padding: 3%;
+}
+
+
+button img {
+	border-radius: 50%;
+    padding: 3%;
+    background-color: white;
+}
+
+/**** form ****/
+
+#formContainer div:nth-child(1) {
+  display: flex;
+  flex-direction: row;
+}
+
+#formContainer div div:nth-child(1) {
+  display: flex;
+  flex-direction: column;
+  /* background-color: red; */
+  width: 50%;
+  padding: 0em 0em 2em 2em;
+}
+
+#formContainer div div:nth-child(2) {
+  display: flex;
+  flex-direction: row;
+  /* background-color: blue; */
+  width: 40%;
+}
+
+input {
+	width: 80%;
+/*	margin-top: 4%;*/
+	padding: 2% 0% 2% 0%;
+	border-radius: 5%;
+  border: 3px solid #046AB8;
+  margin-bottom: 1em;
+}
+
+label {
+  margin-bottom: .5em;
+}
+
+.intro-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 3% 0 3% 0;
+}
+.intro-container img {
+  width: 100%;
+}
+
+.contact-container {
+  background-color: #F5F5F5;
+  width: 100%;
+  padding: 2em 0 2em 0;
+
+}
+
+.contact-container div:nth-child(1) {
+  text-align: center;
+}
+
+.contact-container div:nth-child(2) {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-container {
+  width: 100%;
+  height: 5%;
+  background-color: #002663; 
+  display:flex;
+  justify-content: space-around;
+}
+
+.footer-container > img {
+  width: auto;
+  padding: 5em 0em 5em 0em;
+}
+
+/**** Display jokes ***/
+
+.displayJoke-container {
+  display: flex;
+  justify-content: center;
+}
+
+.showJoke-container {
+  display: flex;
+  justify-content: center;
+  border: 2px solid #002663; 
+
+}
+
+.showJoke-container h3 {
+  display: flex;
+  justify-content: center;  
+  border: 2px solid #002663; 
+
+}
+
+.bespokeJokeContainer {
+  display: flex;
+  justify-content: center;
+  border: 2px solid #002663;
+}
+
+.bespokeJoke-container h3 {
+  margin:auto;
+  vertical-align: middle;
+  display: flex;
+  justify-content: space-around;
+  padding: 0em 2em 1em 2em;
+}
+
+/**** Media Queries *****/
+
+/* iPad Pro */
+
+@media (max-device-width: 1575px) {
+  .intro-container div:nth-child(2){
+    display: none;
+  }
+
+  .middle-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+  .joke-container {
+    margin-bottom: 3em;
+    width: 50em
+  }
+  .bespokeJoke-container {
+    width: 50em;
+  }
+}
+
+/**** 731px -- iPad *****/
+
+@media (max-device-width: 872px) {
+
+  .header-container {
+    flex-direction: column;
+  }
+
+  .header-container div:nth-child(2){
+    justify-content: center;
+  }
+
+
+  .joke-container {
+    width: 30em;
+  }
+  .bespokeJoke-container {
+    width: 30em;
+  }
+}
+
+/**** 570px *****/
+
+@media (max-device-width: 570px) {
+  .intro-container div {
+    text-align: center;
+  }
+  .joke-container {
+    width: 25em;
+  }
+  .bespokeJoke-container {
+    width: 25em;
+  }
+  .joke-container div:nth-child(2) {
+    text-align: center;
+  }
+
+  .button-container {
+    align-items: center;
+    flex-direction: column;  
+  }
+  .button-container button {
+    width: 75%;
+    margin: 1em;
+  }
+
+  #formContainer div:nth-child(1) {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #formContainer div div:nth-child(1) {
+    width: 70%;
+    padding: 0 1em 1em 1em;
+    align-items: center;
+  }
+
+  #formContainer div div:nth-child(2) {
+    width: 70%;
+  }
+
+  .contact-container div:nth-child(2) {
+    flex-direction: column;
+    text-align: center;
+  }
+
+}
+
+/***  iPhone 6+ -- iPhone 6/7/8 -- Pixel 2 ***/
+
+@media (max-device-width: 414px) {
+  .header-container {
+    flex-direction: column;
+  }
+
+  .header-container div:nth-child(2){
+    justify-content: center;
+  }
+
+  .middle-container {
+    align-items: center;
+  }
+  .joke-container {
+    width: fit-content;
+  }
+
+  .bespokeJoke-container {
+    width: fit-content;
+  }
+  .footer-container > img {
+    width: auto;
+  }
+
+}
+
+/***** Galaxy s5 iPghhone 5 ******/
+
+@media (max-device-width: 375px) {
+  .app-container {
+    margin: 3%;
+    width: 100%;
+  }
+
+
+  .header-container {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .header-container img {
+    width: 90%;
+  }
+  .header-container div:nth-child(2) {
+    justify-content: center;
+  }
+  .intro-container {
+    padding: 2em;
+  }
+
+  .joke-container {
+    width: auto;
+    margin: 1em;
+  }
+
+  .joke-container div:nth-child(2) {
+    text-align: center;
+  }
+
+  .bespokeJoke-container {
+    width: auto;
+    margin: 1em;
+  }
+
+  .bespokeJoke-container div:nth-child(2) {
+    text-align: center;
+  }
+
+  .button-container {
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .button-container button {
+    width: 75%;
+    margin: 1em;
+  }
+
+  #formContainer div:nth-child(1) {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #formContainer div div:nth-child(1) {
+    width: 70%;
+    padding: 0 1em 1em 1em;
+    align-items: center;
+  }
+
+  #formContainer div div:nth-child(2) {
+    width: 70%;
+  }
+
+  .contact-container div:nth-child(2) {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-container > img {
+    width: 100%;
+    padding: 5em 0em 5em 0em;
+  }
+}
