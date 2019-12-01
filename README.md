@@ -1,13 +1,13 @@
-# Chuck Norris Joke Generator
+# Chuck Norris Joke Generator, Built in React
 
 A project that utilises the Chuck Norris joke generator api. 
 The api was founded because, apparently, "there isn’t a good repository of these jokes on the web":
+
 http://www.icndb.com/api/
 
 # Brief
 ### The Challenge consists of two main tasks:
-1. Random Joke
-When the ‘Random Joke’ button is pressed, the app fetches one random joke from the Chuck
+1. When the ‘Random Joke’ button is pressed, the app fetches one random joke from the Chuck
 Norris server and displays the random joke on screen.
 
 **status: complete**
